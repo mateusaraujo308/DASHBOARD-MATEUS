@@ -21,3 +21,10 @@ O código pode ser público; seus lançamentos não são enviados ao GitHub pelo
 ## Personalizar
 
 Todo o código está em `index.html`: cores no bloco CSS, interface no HTML e comportamentos no bloco JavaScript. Não exige servidor de aplicação ou processo de build.
+
+## Atualização financeira
+Selecione mês e ano no campo Mês financeiro. Cadastre entradas ou saídas únicas ou recorrentes mensais (de 2 a 120 meses, incluindo o inicial). Cada ocorrência é editada e excluída individualmente. Para continuar uma série encerrada, crie outra a partir do mês seguinte. Dias 29, 30 e 31 são ajustados para o último dia dos meses menores.
+
+Marque como Pago / recebido e informe a data efetiva: ela determina os totais realizados e o comparativo anual. A data original continua sendo o vencimento ou previsão. Os lançamentos aparecem no mês previsto e também no mês em que foram realizados, quando diferente; os totais realizados contabilizam cada um somente uma vez. O maior gasto compara somente saídas pagas do ano selecionado, indicando empates. Os registros antigos continuam funcionando, tratados como despesas únicas; backups antigos podem ser importados.
+
+Para atualizar seu site, primeiro exporte um backup no painel atual. Substitua apenas index.html no mesmo repositório e branch usados pelo GitHub Pages, mantendo o mesmo endereço. Aguarde a publicação e atualize o navegador. O armazenamento usa a mesma chave da versão anterior.
